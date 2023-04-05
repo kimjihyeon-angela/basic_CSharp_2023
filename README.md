@@ -7,3 +7,10 @@
 	- Visual Studio상 C# 구성
 	- 기본 문법
 	
+## Day 02
+- C# 기본
+	- 기본 문법
+	
+- Win App
+	- Winforms vs WPF
+	- Winforms 기초
