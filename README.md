@@ -9,8 +9,18 @@
 	
 ## Day 02
 - C# 기본
-	- 기본 문법
+	- 기본 문법 (변수, 메서드, 연산자, 제어(if, for ...))
 	
 - Win App
-	- Winforms vs WPF
-	- Winforms 기초
+	- WinForms vs WPF
+	- WinForms 기초
+	
+## Day 03
+- C# 기본
+	- 클래스
+	
+- Win App
+	- WinForms 컨트롤
+	- 리스트뷰, 데이터그리드 추가학습 필요
+	![윈폼 학습]()
+	
