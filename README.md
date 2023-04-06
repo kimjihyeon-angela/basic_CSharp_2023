@@ -22,5 +22,6 @@
 - Win App
 	- WinForms 컨트롤
 	- 리스트뷰, 데이터그리드 추가학습 필요
-	![윈폼 학습]()
+	<img src ="https://raw.githubusercontent.com/kimjihyeon-angela/basic_CSharp_2023/main/Image/WinForms.png" width = "700">
+	<윈폼 학습 결과화면>
 	
