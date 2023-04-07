@@ -25,3 +25,20 @@
 	<img src ="https://raw.githubusercontent.com/kimjihyeon-angela/basic_CSharp_2023/main/Image/WinForms.png" width = "700">
 	<윈폼 학습 결과화면>
 	
+## Day 04
+- C# 기본
+	- 클래스 상속 계속
+	- 인터페이스
+	
+- Win App
+	- WinForms 컨트롤 마무리
+	- WinForms 예제 실습
+	- 로그인앱 실습
+	
+	
+## Day 05
+- C# 기본
+	
+- Win App
+	- WinForms 디자인 오류 시 해결방법
+	- Window 탐색기 만들기
