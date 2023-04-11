@@ -50,6 +50,7 @@
 - C# 기본
 	- 인터페이스, 추상클래스
 	- 프로퍼티
+	- 배열, 컬렉션
 	
 - Win App
 	- WinForms 디자인 오류 시 해결방법
@@ -57,3 +58,31 @@
 	<img src ="https://raw.githubusercontent.com/kimjihyeon-angela/basic_CSharp_2023/main/Image/WinForms2.png" width = "700">
 	
 	<탐색기 만들기 중>
+
+
+## Day 06
+- C# 기본
+	- 컬렉션
+	- 일반화(Generic) 프로그래밍
+	- 예외 처리
+	- 대리자, 이벤트
+	
+- Win App
+	- 탐색기 마무리
+		- 추가개발 리스트
+			- 컨텍스트 메뉴 (마우스 오른쪽 메뉴)
+			- 보호된 운영체제 폴더 숨기기
+			- 리스트뷰 폴더 더블클릭시 하위폴더 표시
+	- DB 핸들링 시작
+	
+	<img src ="https://raw.githubusercontent.com/kimjihyeon-angela/basic_CSharp_2023/main/Image/WinForms3.png" width = "700">
+	
+	<탐색기 만들기 - 아이콘 변경>
+	
+	<img src ="https://raw.githubusercontent.com/kimjihyeon-angela/basic_CSharp_2023/main/Image/WinForms4.png" width = "700">
+	
+	<탐색기 만들기 - exe 파일 실행 화면>
+	
+## Day 07
+	- BookRentalShop DB 사용 WinForms 앱 개발
+	- 실습 예제
