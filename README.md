@@ -77,7 +77,7 @@
 	
 	<img src ="https://raw.githubusercontent.com/kimjihyeon-angela/basic_CSharp_2023/main/Image/WinForms3.png" width = "700">
 	
-	<탐색기 만들기 - 아이콘 변경>
+	<탐색기 만들기 - 아이콘 변경된 화면>
 	
 	<img src ="https://raw.githubusercontent.com/kimjihyeon-angela/basic_CSharp_2023/main/Image/WinForms4.png" width = "700">
 	
