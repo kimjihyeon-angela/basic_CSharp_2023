@@ -97,13 +97,13 @@
 	- DB 핸들링
 	- SDI vs MDI
 	
-<img src ="https://raw.githubusercontent.com/kimjihyeon-angela/basic_CSharp_2023/main/Image/M.png" width = "700">
+<img src ="https://raw.githubusercontent.com/kimjihyeon-angela/basic_CSharp_2023/main/Image/MDIForm.png" width = "700">
 
-	<MDI 폼>
+<MDI 폼>
 	
 <img src ="https://raw.githubusercontent.com/kimjihyeon-angela/basic_CSharp_2023/main/Image/MDIForm_About.png" width = "700">
 	
-	<MDI 폼 - 프로그램 설명>
+<MDI 폼 - 프로그램 설명>
 	
 	
 ## Day 08
