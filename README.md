@@ -84,5 +84,29 @@
 	<탐색기 만들기 - exe 파일 실행 화면>
 	
 ## Day 07
+- C# 기본
+	- 대리자, 이벤트 
+	- 람다식, 애트리뷰트
+	- 파일 핸들링
+	- 추가적으로 공부해야 할 내용
+		- LINQ
+		- 리플렉션
+		- dynamic
+		
+- Win App
+	- DB 핸들링
+	- SDI vs MDI
+	
+<img src ="https://raw.githubusercontent.com/kimjihyeon-angela/basic_CSharp_2023/main/Image/M.png" width = "700">
+
+	<MDI 폼>
+	
+<img src ="https://raw.githubusercontent.com/kimjihyeon-angela/basic_CSharp_2023/main/Image/MDIForm_About.png" width = "700">
+	
+	<MDI 폼 - 프로그램 설명>
+	
+	
+## Day 08
+
 	- BookRentalShop DB 사용 WinForms 앱 개발
 	- 실습 예제
