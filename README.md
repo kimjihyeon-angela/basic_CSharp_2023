@@ -87,7 +87,6 @@
 - C# 기본
 	- 대리자, 이벤트 
 	- 람다식, 애트리뷰트
-	- 파일 핸들링
 	- 추가적으로 공부해야 할 내용
 		- LINQ
 		- 리플렉션
@@ -107,6 +106,26 @@
 	
 	
 ## Day 08
-
+- C# 기본
+	- 파일 핸들링
+	<img src ="https://raw.githubusercontent.com/kimjihyeon-angela/basic_CSharp_2023/main/Image/file_handling.png" width = "700">
+	
+	<절대경로를 이용하여 디렉토리와 파일의 정보 확인하기>
+	
+	
+	<img src ="https://raw.githubusercontent.com/kimjihyeon-angela/basic_CSharp_2023/main/Image/file_create.png" width = "700">
+	
+	<하위 폴더, 하위 파일 생성하기>
+	
+	
+	<img src ="https://raw.githubusercontent.com/kimjihyeon-angela/basic_CSharp_2023/main/Image/notepad.png" width = "700">
+	
+	<메모장 글 읽어오고 수정, 저장하기>
+	
+	
+	- 스레드 / 태스크
+	- 가비지 컬렉션
+	
+- Win App
 	- BookRentalShop DB 사용 WinForms 앱 개발
 	- 실습 예제
