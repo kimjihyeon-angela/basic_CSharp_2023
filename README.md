@@ -122,10 +122,15 @@
 	
 	<메모장 글 읽어오고 수정, 저장하기>
 	
-	
+## Day 09
+- C# 기본	
 	- 스레드 / 태스크
 	- 가비지 컬렉션
-	
 - Win App
 	- BookRentalShop DB 사용 WinForms 앱 개발
-	- 실습 예제
+	
+	
+## Day 10
+- Win App
+	- BookRentalShop DB 사용 WinForms 앱 개발
+
