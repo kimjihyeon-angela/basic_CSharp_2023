@@ -34,23 +34,23 @@ namespace wf13_bookrentalshop
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.DgvResult = new System.Windows.Forms.DataGridView();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.NudPrice = new System.Windows.Forms.NumericUpDown();
+            this.DtpReleaseDate = new System.Windows.Forms.DateTimePicker();
+            this.CboDivision = new System.Windows.Forms.ComboBox();
             this.BtnDel = new System.Windows.Forms.Button();
             this.BtnNew = new System.Windows.Forms.Button();
             this.BtnSave = new System.Windows.Forms.Button();
+            this.TxtNames = new System.Windows.Forms.TextBox();
+            this.TxtISBN = new System.Windows.Forms.TextBox();
             this.TxtAuthor = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
             this.TxtBookIdx = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.TxtNames = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.TxtISBN = new System.Windows.Forms.TextBox();
-            this.CboDivision = new System.Windows.Forms.ComboBox();
-            this.DtpReleaseDate = new System.Windows.Forms.DateTimePicker();
-            this.NudPrice = new System.Windows.Forms.NumericUpDown();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -122,6 +122,40 @@ namespace wf13_bookrentalshop
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "책정보 입력";
             // 
+            // NudPrice
+            // 
+            this.NudPrice.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.NudPrice.Location = new System.Drawing.Point(75, 207);
+            this.NudPrice.Maximum = new decimal(new int[] {
+            1000000,
+            0,
+            0,
+            0});
+            this.NudPrice.Name = "NudPrice";
+            this.NudPrice.Size = new System.Drawing.Size(165, 21);
+            this.NudPrice.TabIndex = 7;
+            this.NudPrice.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // DtpReleaseDate
+            // 
+            this.DtpReleaseDate.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.DtpReleaseDate.Location = new System.Drawing.Point(75, 146);
+            this.DtpReleaseDate.Name = "DtpReleaseDate";
+            this.DtpReleaseDate.Size = new System.Drawing.Size(166, 21);
+            this.DtpReleaseDate.TabIndex = 5;
+            // 
+            // CboDivision
+            // 
+            this.CboDivision.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.CboDivision.FormattingEnabled = true;
+            this.CboDivision.Location = new System.Drawing.Point(75, 88);
+            this.CboDivision.Name = "CboDivision";
+            this.CboDivision.Size = new System.Drawing.Size(165, 22);
+            this.CboDivision.TabIndex = 3;
+            // 
             // BtnDel
             // 
             this.BtnDel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -155,60 +189,6 @@ namespace wf13_bookrentalshop
             this.BtnSave.UseVisualStyleBackColor = true;
             this.BtnSave.Click += new System.EventHandler(this.BtnSave_Click);
             // 
-            // TxtAuthor
-            // 
-            this.TxtAuthor.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.TxtAuthor.Location = new System.Drawing.Point(75, 60);
-            this.TxtAuthor.Name = "TxtAuthor";
-            this.TxtAuthor.Size = new System.Drawing.Size(166, 21);
-            this.TxtAuthor.TabIndex = 2;
-            // 
-            // TxtBookIdx
-            // 
-            this.TxtBookIdx.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.TxtBookIdx.Location = new System.Drawing.Point(75, 32);
-            this.TxtBookIdx.Name = "TxtBookIdx";
-            this.TxtBookIdx.Size = new System.Drawing.Size(166, 21);
-            this.TxtBookIdx.TabIndex = 1;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(29, 63);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(40, 14);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "저자명";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(29, 32);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(40, 14);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "책번호";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(29, 93);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(40, 14);
-            this.label3.TabIndex = 0;
-            this.label3.Text = "책장르";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(29, 121);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(40, 14);
-            this.label4.TabIndex = 0;
-            this.label4.Text = "책제목";
-            // 
             // TxtNames
             // 
             this.TxtNames.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
@@ -217,33 +197,6 @@ namespace wf13_bookrentalshop
             this.TxtNames.Name = "TxtNames";
             this.TxtNames.Size = new System.Drawing.Size(166, 21);
             this.TxtNames.TabIndex = 4;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(15, 149);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(54, 14);
-            this.label5.TabIndex = 0;
-            this.label5.Text = "출판 일자";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(36, 180);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(33, 14);
-            this.label6.TabIndex = 0;
-            this.label6.Text = "ISBN";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(29, 207);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(40, 14);
-            this.label7.TabIndex = 0;
-            this.label7.Text = "책가격";
             // 
             // TxtISBN
             // 
@@ -254,39 +207,88 @@ namespace wf13_bookrentalshop
             this.TxtISBN.Size = new System.Drawing.Size(166, 21);
             this.TxtISBN.TabIndex = 6;
             // 
-            // CboDivision
+            // TxtAuthor
             // 
-            this.CboDivision.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.TxtAuthor.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.CboDivision.FormattingEnabled = true;
-            this.CboDivision.Location = new System.Drawing.Point(75, 88);
-            this.CboDivision.Name = "CboDivision";
-            this.CboDivision.Size = new System.Drawing.Size(165, 22);
-            this.CboDivision.TabIndex = 3;
+            this.TxtAuthor.Location = new System.Drawing.Point(75, 60);
+            this.TxtAuthor.Name = "TxtAuthor";
+            this.TxtAuthor.Size = new System.Drawing.Size(166, 21);
+            this.TxtAuthor.TabIndex = 2;
             // 
-            // DtpReleaseDate
+            // label4
             // 
-            this.DtpReleaseDate.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(26, 121);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(40, 14);
+            this.label4.TabIndex = 0;
+            this.label4.Text = "책제목";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(26, 209);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(40, 14);
+            this.label7.TabIndex = 0;
+            this.label7.Text = "책가격";
+            // 
+            // TxtBookIdx
+            // 
+            this.TxtBookIdx.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.DtpReleaseDate.Location = new System.Drawing.Point(75, 146);
-            this.DtpReleaseDate.Name = "DtpReleaseDate";
-            this.DtpReleaseDate.Size = new System.Drawing.Size(166, 21);
-            this.DtpReleaseDate.TabIndex = 5;
+            this.TxtBookIdx.BackColor = System.Drawing.Color.Gainsboro;
+            this.TxtBookIdx.Location = new System.Drawing.Point(75, 32);
+            this.TxtBookIdx.Name = "TxtBookIdx";
+            this.TxtBookIdx.ReadOnly = true;
+            this.TxtBookIdx.Size = new System.Drawing.Size(166, 21);
+            this.TxtBookIdx.TabIndex = 1;
             // 
-            // NudPrice
+            // label6
             // 
-            this.NudPrice.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.NudPrice.Location = new System.Drawing.Point(75, 207);
-            this.NudPrice.Maximum = new decimal(new int[] {
-            1000000,
-            0,
-            0,
-            0});
-            this.NudPrice.Name = "NudPrice";
-            this.NudPrice.Size = new System.Drawing.Size(165, 21);
-            this.NudPrice.TabIndex = 7;
-            this.NudPrice.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(33, 180);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(33, 14);
+            this.label6.TabIndex = 0;
+            this.label6.Text = "ISBN";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(26, 93);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(40, 14);
+            this.label3.TabIndex = 0;
+            this.label3.Text = "책장르";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(12, 149);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(54, 14);
+            this.label5.TabIndex = 0;
+            this.label5.Text = "출판 일자";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(26, 63);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(40, 14);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "저자명";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(37, 32);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(29, 14);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "번호";
             // 
             // FrmBooks
             // 
