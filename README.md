@@ -130,6 +130,7 @@
 	- BookRentalShop DB 사용 WinForms 앱 개발
 	
 	![bookrentalshop 로그인 화면](https://raw.githubusercontent.com/kimjihyeon-angela/basic_CSharp_2023/main/Image/bookrentalshop_login.png)
+	
 	<bookrentalshop 로그인 화면>
 	
 	
@@ -145,6 +146,6 @@
 	
 	<bookrentalshop 도서 신규 등록>
 	
-<img src ="https://raw.githubusercontent.com/kimjihyeon-angela/basic_CSharp_2023/main/Image/bookrentalshop_bookinfo_delete.png" width = "700">
+	<img src ="https://raw.githubusercontent.com/kimjihyeon-angela/basic_CSharp_2023/main/Image/bookrentalshop_bookinfo_delete.png" width = "700">
 	
 	<bookrentalshop 도서 삭제>
